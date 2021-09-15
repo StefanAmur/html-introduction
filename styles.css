@@ -1,27 +1,104 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+
+/* Typography
+  * *********************************** */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
 .topHeader {
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
+}
+
+.header-primary {
+  font-size: 4rem;
+  letter-spacing: 0.8rem;
+  margin: 2rem auto;
 }
 
 .quote {
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 2rem;
+  margin: 2rem auto;
 }
 
 .facePicture {
   border: 4px solid #e8e7eb;
   border-radius: 50%;
   height: 40vh;
+  margin: 2rem auto;
+}
+
+.header-secondary {
+  font-size: 2.2rem;
+  margin: 2rem auto;
+  letter-spacing: 0.2rem;
 }
 
 .tableContainer {
   display: flex;
   justify-content: center;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
+}
+
+.table {
+  border-collapse: collapse;
+  margin: 2.5rem 0;
+  font-size: 1rem;
+  font-family: sans-serif;
+  min-width: 40rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  font-size: 2rem;
+}
+
+.table tbody tr {
+  background-color: #0a9c7f;
+  color: #ffffff;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #5e5a5a;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #0a9c7f;
 }
 
 .countOnMeContainer {
@@ -29,28 +106,50 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
 }
 
 .hobbiesContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
+}
+
+.header-tertiary {
+  font-size: 2.2rem;
+}
+
+.hobbiesList {
+  list-style: none;
+}
+
+.listItems {
+  font-size: 1.8rem;
+  margin-bottom: 4px;
+}
+
+.gamesList {
+  list-style: none;
+  padding: 0 5rem;
 }
 
 .funnyStory {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
 }
 
 .funnyStoryTLDR {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
+}
+
+.normalText {
+  max-width: 80vw;
 }
 
 .navContainer {
@@ -59,4 +158,18 @@
   justify-content: center;
   align-items: center;
   align-content: center;
+  margin-bottom: 5rem;
+}
+
+.link {
+  text-decoration: none;
+  border: 2px solid #0a9c7f;
+  background-color: #0a9c7f;
+  border-radius: 5px;
+  padding: 0px 0.8rem;
+}
+
+.nameText {
+  font-size: 2rem;
+  margin: auto 4rem;
 }

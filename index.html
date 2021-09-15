@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
     <title>HTML Introduction</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,10 +16,12 @@
     <div class="topHeader">
       <h1 class="header-primary">STEFAN AMURARITEI</h1>
 
-      <p class="quote">When in doubt, flank!</p>
+      <p class="quote">You miss all the shots you don't take.</p>
 
-      <img src="../img/mugshot.jpg" alt="Face picture" class="facePicture" />
-      <h2 class="header-secondary">One short sentence description of me</h2>
+      <img src="img/mugshot.jpg" alt="Face picture" class="facePicture" />
+      <h2 class="header-secondary">
+        I'm really bad at describing myself, sorry! &#9785;
+      </h2>
     </div>
 
     <div class="tableContainer">
@@ -23,7 +29,7 @@
         <tbody>
           <tr>
             <td>Birthday</td>
-            <td>03/10/1986</td>
+            <td>03/10</td>
           </tr>
           <tr>
             <td>Gender</td>
@@ -35,7 +41,7 @@
           </tr>
           <tr>
             <td>Favorite Food</td>
-            <td>Pizza</td>
+            <td>Sour Cream Chicken</td>
           </tr>
           <tr>
             <td>Pineapple on pizza</td>
@@ -48,22 +54,22 @@
     <div class="hobbiesContainer">
       <h2 class="header-secondary">Hobbies</h2>
       <ul class="hobbiesList">
-        <li class="listItems">Tinkering with electronics</li>
-        <li class="listItems">Oil painting</li>
+        <li class="listItems">&#9889; Tinkering with electronics</li>
+        <li class="listItems">&#127912; Oil painting</li>
         <li class="listItems">
-          Gaming
-          <ul>
-            <li>Rust</li>
-            <li>DCS</li>
-            <li>Fallout 4</li>
-            <li>Civilization 6</li>
+          &#127918; Gaming
+          <ul class="gamesList">
+            <li class="listItems">&#127958; Rust</li>
+            <li class="listItems">&#128742; DCS</li>
+            <li class="listItems">&#9762; Fallout 4</li>
+            <li class="listItems">&#127757; Civilization 6</li>
           </ul>
         </li>
       </ul>
     </div>
 
     <div class="countOnMeContainer">
-      <h3 class="heading-tertiary">You can always count on me when...</h3>
+      <h3 class="header-tertiary">You can always count on me when...</h3>
       <p class="normalText">
         Whenever you think I can help with something, regardless of what that
         is, please just ask. It can be about VSCode, GitHub, PC's in general or
@@ -72,9 +78,8 @@
       </p>
     </div>
 
-    <!-- <div class="funnyStoryContainer"> -->
     <div class="funnyStory">
-      <h4 class="heading-4">Funny story</h4>
+      <h4 class="header-4">Funny story</h4>
       <p class="normalText">
         This morning (first day on campus), I actually got out of the house, got
         in my car, started the engine, waited a few minutes for the engine to
@@ -83,18 +88,17 @@
       </p>
     </div>
     <div class="funnyStoryTLDR">
-      <h5 class="heading-5">TL;DR</h5>
+      <h5 class="header-5">TL;DR</h5>
       <p class="normalText">
         Out of habit, I got in my car on the first day on campus just to realize
         I can walk there.
       </p>
     </div>
-    <!-- </div> -->
 
-    <div class="navContainer">
-      <a href="" target="_blank"> << previous</a>
+    <nav class="navContainer">
+      <a href="" target="_blank" class="link"> &#60;&#60; previous</a>
       <p class="nameText">STEFAN AMURARITEI</p>
-      <a href="" target="_blank">next >> </a>
-    </div>
+      <a href="" target="_blank" class="link">next &#62;&#62; </a>
+    </nav>
   </body>
 </html>
