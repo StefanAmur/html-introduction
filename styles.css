@@ -57,7 +57,7 @@ a:visited {
 }
 
 .header-secondary {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   margin: 2rem auto;
   letter-spacing: 0.2rem;
 }
@@ -120,6 +120,14 @@ a:visited {
   font-size: 2.2rem;
 }
 
+.header-4 {
+  font-size: 2rem;
+}
+
+.header-5 {
+  font-size: 1.8rem;
+}
+
 .hobbiesList {
   list-style: none;
 }
@@ -149,7 +157,9 @@ a:visited {
 }
 
 .normalText {
-  max-width: 80vw;
+  text-align: center;
+  font-size: 1.8rem;
+  max-width: 70vw;
 }
 
 .navContainer {
@@ -167,6 +177,17 @@ a:visited {
   background-color: #0a9c7f;
   border-radius: 5px;
   padding: 0px 0.8rem;
+}
+
+.link:hover {
+  transform: translateY(-0.5rem) scale(1.04);
+  transition: all 0.2s;
+  box-shadow: 0 0.9rem 1.4rem rgb(0 0 0 / 20%);
+}
+
+.link:active {
+  transform: translateY(0px) scale(1);
+  box-shadow: none;
 }
 
 .nameText {
