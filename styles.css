@@ -16,6 +16,9 @@ html {
 }
 
 body {
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 1.6rem;
   line-height: 1.7;
   box-sizing: border-box;
